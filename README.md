@@ -31,4 +31,5 @@ Other Useful References:
 int[ ] arr;
 int[ ] arr = new int[5];
 arr[2] = 42;
+String[ ] myNames = { "A", "B", "C", "D"};
 ```
