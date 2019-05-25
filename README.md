@@ -33,6 +33,8 @@ int[ ] arr = new int[5];
 arr[2] = 42;
 String[ ] myNames = { "A", "B", "C", "D"};
 .length
+
+int[ ][ ] sample = { {1, 2, 3}, {4, 5, 6} }; 
 ```
 --------------Loops---------------:
 ```
