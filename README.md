@@ -34,3 +34,11 @@ arr[2] = 42;
 String[ ] myNames = { "A", "B", "C", "D"};
 .length
 ```
+--------------Loops---------------:
+```
+"Enhanced for loop" aka "for each"
+int[ ] primes = {2, 3, 5, 7};
+for (int t: primes) {
+   System.out.println(t); 
+}
+```
