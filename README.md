@@ -1,16 +1,4 @@
-Here are some basic to advance implementations of Algorithms and Data Structures for future reference.
-
--Within files are small programs that run alone; more complex programs are within folders.
-
--Files in folders execute with assitance from the others within the folder.
-
--Additonal details of what the files focus on is explained within them.
-
-*Hope to help other users in the github community with these as well! :]
-
-
-
-Other Useful References:
+Useful References:
 
 ---------------Getting User Input---------------:
 ```
@@ -45,7 +33,7 @@ for (int t: primes) {
 }
 ```
 ||The 4 core concepts in OOP: encapsulation, inheritance, polymorphism, and abstraction.||
---------------Encapsulation---------------:
+- --------------Encapsulation---------------:
 ```
 "The packing of data and methods into a single component."
 'The idea behind encapsulation is to ensure that implementation details are not visible to users. The variables of one class will be hidden from the other classes, accessible only through the methods of the current class. This is called data hiding.'
