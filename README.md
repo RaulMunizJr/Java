@@ -69,3 +69,38 @@ class Dog extends Animal {
 
 Here, Dog is the subclass, and Animal is the superclass.
 ```
+- --------------Polymorphism---------------:
+```
+"Polymorphism, which refers to the idea of "having many forms", occurs when there is a hierarchy of classes related to each other through inheritance."
+
+Here is an example: Dog and Cat are classes that inherit from the Animal class. Each class has its own implementation of the makeSound() method.
+
+class Animal {
+  public void makeSound() {
+    System.out.println("Grr...");
+  }
+}
+class Cat extends Animal {
+  public void makeSound() {
+    System.out.println("Meow");
+  }
+}
+class Dog extends Animal {
+  public void makeSound() {
+    System.out.println("Woof");
+  }
+}
+
+As all Cat and Dog objects are Animal objects, we can do the following in main:
+
+public static void main(String[ ] args) {
+  Animal a = new Dog();
+  Animal b = new Cat();
+}
+
+a.makeSound();
+//Outputs "Woof"
+
+b.makeSound();
+//Outputs "Meow"
+```
