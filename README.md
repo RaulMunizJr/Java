@@ -53,3 +53,19 @@ In summary, encapsulation provides the following benefits:
 - More flexible and easily changed code
 - Ability to change one part of the code without affecting other parts
 ```
+- --------------Inheritance---------------:
+```
+"A process by which one class inherits the members and methods of another class."
+'Inheritance is the process that enables one class to acquire the properties (methods and variables) of another. With inheritance, the information is placed in a more manageable, hierarchical order.
+
+The class inheriting the properties of another is the subclass (also called derived class, or child class); the class whose properties are inherited is the superclass (base class, or parent class).'
+
+*To inherit from a class, use the extends keyword. 
+This example shows how to have the class Dog to inherit from the class Animal.*
+
+class Dog extends Animal {
+ // some code
+}
+
+Here, Dog is the subclass, and Animal is the superclass.
+```
