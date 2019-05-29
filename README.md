@@ -129,3 +129,8 @@ Rules for Method Overriding:
 - If a method cannot be inherited, it cannot be overridden
 - Constructors cannot be overridden
 ```
+- --------------Overloading---------------:
+```
+"When methods have the same name, but different parameters, it is known as method overloading.
+This can be very useful when you need the same method functionality for different types of parameters.
+```
