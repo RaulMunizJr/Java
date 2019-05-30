@@ -209,7 +209,6 @@ If you try to get a value that is not present in your map, it returns the value 
 "A Set is a collection that cannot contain duplicate elements. It models the mathematical set abstraction."
 'One of the implementations of the Set is the HashSet class.'
 
-*The put, remove, and get methods are used to add, delete, and access values in the HashMap.*
 import java.util.HashSet;
 
 public class MyClass {
