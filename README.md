@@ -226,7 +226,7 @@ You can use the size() method to get the number of elements in the HashSet.
 ```
 - --------------Useful Methods---------------:
 ```
-mport java.util.ArrayList;
+import java.util.ArrayList;
 import java.util.Collections;
 
 public class MyClass {
@@ -250,4 +250,32 @@ Other useful methods in the Collections class:
 - min(Collection c): Returns the minimum element in c as determined by natural ordering.
 - reverse(List list): Reverses the sequence in list.
 - shuffle(List list): Shuffles (i.e., randomizes) the elements in list.
+```
+- --------------Iterators---------------:
+```
+The Iterator class provides the following methods:
+hasNext(): Returns true if there is at least one more element; otherwise, it returns false.
+next(): Returns the next object and advances the iterator.
+remove(): Removes the last object that was returned by next from the collection.
+
+import java.util.Iterator;
+import java.util.LinkedList;
+
+public class MyClass {
+   public static void main(String[ ] args) {
+  LinkedList<String> animals = new LinkedList<String>();
+  animals.add("fox");
+  animals.add("cat");
+  animals.add("dog");
+  animals.add("rabbit");
+
+  Iterator<String> it = animals.iterator();
+  String value = it.next();
+  System.out.println(value);
+}
+}
+//Outputs "fox"
+
+it.next() returns the first element in the list and then moves the iterator on to the next element.
+Each time you call it.next(), the iterator moves to the next element of the list.
 ```
