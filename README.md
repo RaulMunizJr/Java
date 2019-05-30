@@ -134,7 +134,7 @@ Rules for Method Overriding:
 "When methods have the same name, but different parameters, it is known as method overloading.
 This can be very useful when you need the same method functionality for different types of parameters.
 ```
-- --------------ArrayList---------------:
+- --------------ArrayList---------------: Use an ArrayList when you need rapid access to your data. 
 ```
 import java.util.ArrayList;
 
@@ -160,7 +160,7 @@ Other useful methods include the following:
 
 Note: As with arrays, the indexing starts with 0.
 ```
-- --------------LinkedList---------------:
+- --------------LinkedList---------------: Use a LinkedList when you need to make a large number of inserts and/or deletes.
 ```
 LinkedList<String> c = new LinkedList<String>();
 c.add("Red");
