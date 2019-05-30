@@ -245,8 +245,9 @@ public class MyClass {
 /* Outputs:
 [1, 3, 36, 40, 73]
 */
+Other useful methods in the Collections class:
+- max(Collection c): Returns the maximum element in c as determined by natural ordering.
+- min(Collection c): Returns the minimum element in c as determined by natural ordering.
+- reverse(List list): Reverses the sequence in list.
+- shuffle(List list): Shuffles (i.e., randomizes) the elements in list.
 ```
-> max(Collection c): Returns the maximum element in c as determined by natural ordering.
-> min(Collection c): Returns the minimum element in c as determined by natural ordering.
-> reverse(List list): Reverses the sequence in list.
-> shuffle(List list): Shuffles (i.e., randomizes) the elements in list.
