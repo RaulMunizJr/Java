@@ -160,3 +160,21 @@ Other useful methods include the following:
 
 Note: As with arrays, the indexing starts with 0.
 ```
+- --------------LinkedList---------------:
+```
+LinkedList<String> c = new LinkedList<String>();
+c.add("Red");
+c.add("Blue");
+c.add("Green");
+c.add("Orange");
+c.remove("Green");
+
+for(String s: c) {
+  System.out.println(s);
+}
+/* Output:
+Red
+Blue
+Orange
+ */
+```
