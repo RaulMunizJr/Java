@@ -199,4 +199,8 @@ public class MyClass {
 HashMap with Strings as its keys and Integers as its values.
 
 Use the get method and the corresponding key to access the HashMap elements.
+
+A HashMap cannot contain duplicate keys. Adding a new item with a key that already exists overwrites the old element.
+The HashMap class provides containsKey and containsValue methods that determine the presence of a specified key or value.
+If you try to get a value that is not present in your map, it returns the value of null. 
 ```
