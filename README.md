@@ -204,3 +204,24 @@ A HashMap cannot contain duplicate keys. Adding a new item with a key that alrea
 The HashMap class provides containsKey and containsValue methods that determine the presence of a specified key or value.
 If you try to get a value that is not present in your map, it returns the value of null. 
 ```
+- --------------Sets---------------:
+```
+"A Set is a collection that cannot contain duplicate elements. It models the mathematical set abstraction."
+'One of the implementations of the Set is the HashSet class.'
+
+*The put, remove, and get methods are used to add, delete, and access values in the HashMap.*
+import java.util.HashSet;
+
+public class MyClass {
+  public static void main(String[ ] args) {
+    HashSet<String> set = new HashSet<String>();
+    set.add("A");
+    set.add("B");
+    set.add("C");
+    System.out.println(set);
+  }
+}
+//  Output: [A, B, C]
+
+You can use the size() method to get the number of elements in the HashSet.
+```
