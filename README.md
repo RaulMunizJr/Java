@@ -134,3 +134,29 @@ Rules for Method Overriding:
 "When methods have the same name, but different parameters, it is known as method overloading.
 This can be very useful when you need the same method functionality for different types of parameters.
 ```
+- --------------ArrayList---------------:
+```
+import java.util.ArrayList;
+
+public class MyClass {
+  public static void main(String[ ] args) {
+    ArrayList<String> colors = new ArrayList<String>();
+    colors.add("Red");
+    colors.add("Blue");
+    colors.add("Green");
+    colors.add("Orange");
+    colors.remove("Green");
+
+    System.out.println(colors);
+  }
+}
+// Output: [Red, Blue, Orange]
+
+Other useful methods include the following:
+- contains(): Returns true if the list contains the specified element 
+- get(int index): Returns the element at the specified position in the list
+- size(): Returns the number of elements in the list
+- clear(): Removes all of the elements from the list
+
+Note: As with arrays, the indexing starts with 0.
+```
