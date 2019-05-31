@@ -276,6 +276,13 @@ public class MyClass {
 }
 //Outputs "fox"
 
+Iterating in loops:
+ Iterator<String> it = animals.iterator();
+    while(it.hasNext()) {
+      String value = it.next();
+      System.out.println(value);   
+     }
+
 it.next() returns the first element in the list and then moves the iterator on to the next element.
 Each time you call it.next(), the iterator moves to the next element of the list.
 ```
